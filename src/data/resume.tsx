@@ -54,24 +54,21 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/vishwanath231",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/vishwanath231/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
-      email: {
+      Email: {
         name: "Send Email",
         url: "mailto:vishwanatharuchunan@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
-      resume: {
+      Resume: {
         name: "Resume",
         url: "/VishwanathA_SoftwareDeveloper_Resume.pdf",
         icon: Icons.resume,
