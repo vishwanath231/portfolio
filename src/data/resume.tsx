@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Vishwanath",
@@ -45,48 +45,40 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "vishwanatharuchunan@gmail.com",
+    tel: "+916385213119",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/vishwanath231",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/vishwanath231/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:vishwanatharuchunan@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
+      resume: {
+        name: "Resume",
+        url: "/VishwanathA_SoftwareDeveloper_Resume.pdf",
+        icon: Icons.resume,
+        navbar: true,
     },
   },
+},
 
   work: [
     {
@@ -641,4 +633,4 @@ export const DATA = {
       ],
     },
   ],
-} as const;
+}

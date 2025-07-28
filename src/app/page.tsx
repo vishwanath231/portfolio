@@ -29,6 +29,16 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <a
+                  href="/VishwanathA_SoftwareDeveloper_Resume.pdf" // path to your PDF
+                  download
+                  className="inline-block p-2 border bg-gray-800 text-white text-[14px] rounded-lg transition hover:bg-gray-700"
+                >
+                  Download Resume
+                </a>
+              </BlurFade>
             </div>
             {/* <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -38,13 +48,6 @@ export default function Page() {
             </BlurFade> */}
           </div>
         </div>
-       <a
-        href="/VishwanathA_SoftwareDeveloper_Resume.pdf" // path to your PDF
-        download
-        className="inline-block p-2 border bg-gray-800 text-white text-[14px] rounded-lg transition hover:bg-gray-700"
-      >
-        Download Resume
-      </a>
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
