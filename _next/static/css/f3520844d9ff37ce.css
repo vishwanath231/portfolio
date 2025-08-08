@@ -5213,8 +5213,8 @@ h6 {
 }
 
 .orido_tm_mobile_menu .mobile_in .logo img {
-    max-width: 50px;
-    max-height: 50px
+    max-width: 90px;
+    max-height: 70px
 }
 
 .orido_tm_mobile_menu .trigger {
@@ -5306,8 +5306,8 @@ h6 {
 }
 
 .orido_tm_header .logo img {
-    max-width: 100px;
-    max-height: 50px
+    max-width: 170px;
+    max-height: 90px
 }
 
 .orido_tm_header .menu {
@@ -7231,7 +7231,7 @@ h6 {
 }
 
 .orido_tm_contact .text {
-    padding: 0 115px
+    padding: 0 115px 0 0
 }
 
 .orido_tm_contact .text p {
@@ -7271,7 +7271,7 @@ h6 {
 .orido_tm_contact .connect p {
     display: block;
     color: #fff;
-    font-size: 36px;
+    font-size: 18px;
     font-family: var(--font-family-extra);
     font-weight: 500
 }
@@ -7356,8 +7356,8 @@ h6 {
 }
 
 .orido_tm_copyright .logo img {
-    max-width: 100px;
-    max-height: 50px
+    max-width: 170px;
+    max-height: 80px
 }
 
 .orido_tm_copyright .copy p {
@@ -7644,8 +7644,8 @@ h6 {
         margin-right: 45px
     }
     .orido_tm_header .logo img {
-        max-width: 100px;
-        max-height: 50px
+        max-width: 145px;
+        max-height: 80px
     }
     .orido_tm_header .button a {
         padding: 9px 30px 10px
@@ -7810,7 +7810,7 @@ h6 {
         margin-bottom: 18px
     }
     .orido_tm_contact .connect p {
-        font-size: 25px
+        font-size: 18px
     }
     .orido_tm_contact .orido_tm_follow ul li a {
         width: 50px;
@@ -7826,8 +7826,8 @@ h6 {
         font-size: 15px
     }
     .orido_tm_copyright .logo img {
-        max-width: 100x;
-        max-height: 50px
+        max-width: 145px;
+        max-height: 80px
     }
     .orido_tm_modalbox .box_inner {
         top: 50px;
@@ -8148,7 +8148,7 @@ h6 {
         margin-right: 20px
     }
     .orido_tm_contact .connect p {
-        font-size: 20px
+        font-size: 18px
     }
     .orido_tm_contact .connect .left {
         margin-bottom: 20px
