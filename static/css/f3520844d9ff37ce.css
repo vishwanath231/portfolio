@@ -5213,8 +5213,8 @@ h6 {
 }
 
 .orido_tm_mobile_menu .mobile_in .logo img {
-    max-width: 90px;
-    max-height: 70px
+    max-width: 100px;
+    max-height: 50px
 }
 
 .orido_tm_mobile_menu .trigger {
@@ -5306,8 +5306,8 @@ h6 {
 }
 
 .orido_tm_header .logo img {
-    max-width: 170px;
-    max-height: 90px
+    max-width: 100px;
+    max-height: 50px
 }
 
 .orido_tm_header .menu {
@@ -7356,8 +7356,8 @@ h6 {
 }
 
 .orido_tm_copyright .logo img {
-    max-width: 170px;
-    max-height: 80px
+    max-width: 100px;
+    max-height: 50px
 }
 
 .orido_tm_copyright .copy p {
@@ -7644,8 +7644,8 @@ h6 {
         margin-right: 45px
     }
     .orido_tm_header .logo img {
-        max-width: 145px;
-        max-height: 80px
+        max-width: 100px;
+        max-height: 50px
     }
     .orido_tm_header .button a {
         padding: 9px 30px 10px
@@ -7826,8 +7826,8 @@ h6 {
         font-size: 15px
     }
     .orido_tm_copyright .logo img {
-        max-width: 145px;
-        max-height: 80px
+        max-width: 100px;
+        max-height: 50px
     }
     .orido_tm_modalbox .box_inner {
         top: 50px;
@@ -8160,7 +8160,7 @@ h6 {
         margin-bottom: 10px
     }
     .orido_tm_copyright .logo img {
-        max-width: 110px
+        max-width: 100px
     }
     .orido_tm_modalbox .popup_details .top_image,
     .orido_tm_modalbox .service_popup_informations .image {
