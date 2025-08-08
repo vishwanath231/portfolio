@@ -5976,22 +5976,28 @@ h6 {
 
 .orido_tm_informations .skillbox ul {
     margin: 0 0 0 -20px;
-    list-style-type: none
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    list-style-type: none;
 }
 
 .orido_tm_informations .skillbox ul li {
-    margin: 0 0 45px;
+    /* margin: 0 0 45px; */
     width: 33.3333%;
     float: left;
-    padding-left: 20px
+    /* padding-left: 20px; */
+
 }
 
 .orido_tm_informations .skillbox ul li .list_inner {
-    width: 100%;
+    width: fit-content;
     height: auto;
     clear: both;
     float: left;
-    position: relative
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .orido_tm_informations .skillbox .icon {
@@ -6001,7 +6007,7 @@ h6 {
     background-color: var(--main-color);
     display: inline-block;
     position: relative;
-    margin-bottom: 3px
+    margin-right: 3px
 }
 
 .orido_tm_informations .skillbox .icon .in {

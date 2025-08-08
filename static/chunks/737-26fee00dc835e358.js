@@ -455,30 +455,82 @@
                     value: 12
                 }],
                 m = [{
-                    name: "Figma",
-                    value: 90,
-                    icon: "img/svg/figma.svg"
+                    name: "Typescript",
+                    icon: "img/svg/coding/typescrpt.svg"
                 }, {
-                    name: "After Effect",
-                    value: "80",
-                    icon: "img/svg/Ae.svg"
+                    name: "ReactJs",
+                    icon: "img/svg/coding/reactjs.svg"
                 }, {
-                    name: "Photoshop",
-                    value: "85",
-                    icon: "img/svg/photoshop.svg"
+                    name: "NodeJs",
+                    icon: "img/svg/coding/nodejs.svg"
+                }, 
+                {
+                    name: "ExpressJs",
+                    icon: "img/svg/coding/express.svg"
+                },
+                {
+                    name: "Redux",
+                    icon: "img/svg/coding/redux.svg"
                 }, {
-                    name: "XD",
-                    value: "95",
-                    icon: "img/svg/Xd.svg"
+                    name: "Flask",
+                    icon: "img/svg/coding/flask.svg"
                 }, {
-                    name: "Illustrator",
-                    value: "90",
-                    icon: "img/svg/illustrator.svg"
-                }, {
-                    name: "Indesign",
-                    value: "75",
-                    icon: "img/svg/Id.svg"
-                }],
+                    name: "API",
+                    icon: "img/svg/coding/restapi.svg"
+                },
+                {
+                    name: "MongoDB",
+                    icon: "img/svg/coding/mongodb.svg"
+                },
+                {
+                    name: "MySQL",
+                    icon: "img/svg/coding/mysql.svg"
+                },
+                {
+                    name: "GIT",
+                    icon: "img/svg/coding/git.svg"
+                },
+                {
+                    name: "Docker",
+                    icon: "img/svg/coding/docker.svg"
+                },
+                {
+                    name: "CI/CD",
+                    icon: "img/svg/coding/githubaction.svg"
+                },
+                {
+                    name: "Ansible",
+                    icon: "img/svg/coding/ansible.svg"
+                },
+                {
+                    name: "Nginx",
+                    icon: "img/svg/coding/nginx.svg"
+                },
+                {
+                    name: "Azure",
+                    icon: "img/svg/coding/azure.svg"
+                },
+                {
+                    name: "GCP",
+                    icon: "img/svg/coding/gcp.svg"
+                },
+                {
+                    name: "Playwright",
+                    icon: "img/svg/coding/playwright.svg"
+                },
+                {
+                    name: "SonarQube",
+                    icon: "img/svg/coding/sonarqube.svg"
+                },
+                {
+                    name: "Flutter",
+                    icon: "img/svg/coding/flutter.svg"
+                },
+                {
+                    name: "Firebase",
+                    icon: "img/svg/coding/firebase.svg"
+                },
+            ],
                 u = [{
                     company: "Bauen Software Inc.",
                     designation: "Product Designer",
@@ -495,7 +547,9 @@
                     company: "Bauen Software Inc.",
                     designation: "Web Designer",
                     time: "2016 - 2018"
-                }],
+                }
+            
+            ],
                 h = [{
                     institution: "Stanford Univercity",
                     certificate: "Web Design Course",
@@ -636,9 +690,7 @@
                                                                             })
                                                                         }), (0, n.jsxs)("p", {
                                                                             className: "name",
-                                                                            children: [e.name, " ", (0, n.jsxs)("span", {
-                                                                                children: ["(", e.value, "%)"]
-                                                                            })]
+                                                                            children: [e.name]
                                                                         })]
                                                                     })
                                                                 }, s)
