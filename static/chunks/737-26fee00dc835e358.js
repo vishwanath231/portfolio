@@ -359,28 +359,21 @@
                                         }), (0, n.jsxs)("ul", {
                                             children: [(0, n.jsx)("li", {
                                                 children: (0, n.jsx)("a", {
-                                                    href: "#",
+                                                    href: "https://www.linkedin.com/in/vishwanath231/",
+                                                    target: "_blank",
                                                     children: (0, n.jsx)("img", {
                                                         className: "svg",
-                                                        src: "img/svg/social/be.svg",
+                                                        src: "img/svg/social/linkedin-white.png",
                                                         alt: ""
                                                     })
                                                 })
                                             }), (0, n.jsx)("li", {
                                                 children: (0, n.jsx)("a", {
-                                                    href: "#",
+                                                    href: "https://github.com/vishwanath231",
+                                                    target: "_blank",
                                                     children: (0, n.jsx)("img", {
                                                         className: "svg",
-                                                        src: "img/svg/social/dribbble.svg",
-                                                        alt: ""
-                                                    })
-                                                })
-                                            }), (0, n.jsx)("li", {
-                                                children: (0, n.jsx)("a", {
-                                                    href: "#",
-                                                    children: (0, n.jsx)("img", {
-                                                        className: "svg",
-                                                        src: "img/svg/social/instagarm.svg",
+                                                        src: "img/svg/social/github-white.png",
                                                         alt: ""
                                                     })
                                                 })
@@ -851,28 +844,21 @@
                             }), (0, n.jsxs)("ul", {
                                 children: [(0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "#",
+                                        href: "https://www.linkedin.com/in/vishwanath231/",
+                                        target: "_blank",
                                         children: (0, n.jsx)("img", {
                                             className: "svg",
-                                            src: "img/svg/social/be.svg",
+                                            src: "img/svg/social/linkedin.png",
                                             alt: ""
                                         })
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "#",
+                                        href: "https://github.com/vishwanath231",
+                                        target: "_blank",
                                         children: (0, n.jsx)("img", {
                                             className: "svg",
-                                            src: "img/svg/social/dribbble.svg",
-                                            alt: ""
-                                        })
-                                    })
-                                }), (0, n.jsx)("li", {
-                                    children: (0, n.jsx)("a", {
-                                        href: "#",
-                                        children: (0, n.jsx)("img", {
-                                            className: "svg",
-                                            src: "img/svg/social/instagarm.svg",
+                                            src: "img/svg/social/github.png",
                                             alt: ""
                                         })
                                     })
@@ -884,7 +870,7 @@
                         children: (0, n.jsxs)("div", {
                             className: "img",
                             children: [(0, n.jsx)("img", {
-                                src: "img/hero/".concat(s ? 2 : 1, ".jpg"),
+                                src: "img/hero/2.png",
                                 alt: ""
                             })]
                         })
