@@ -4757,7 +4757,7 @@ body.dark .orido_tm_counter .counter_list h3 {
     -webkit-text-stroke: 1px #12141d
 }
 
-body.dark .orido_tm_service {
+/* body.dark .orido_tm_service {
     background-color: #302f43
 }
 
@@ -4785,7 +4785,7 @@ body.dark .orido_tm_service .service_list li.mleave .right .text p {
 body.dark .orido_tm_service .service_list .right .svg path,
 body.dark .orido_tm_service .service_list li.mleave .right .svg path {
     fill: #98a5ff
-}
+} */
 
 body.dark .orido_tm_portfolio .orido_tm_main_title h3 {
     color: #12141d
@@ -5788,7 +5788,7 @@ h6 {
     position: relative
 }
 
-.orido_tm_main_title h3 span:before {
+/* .orido_tm_main_title h3 span:before {
     position: absolute;
     content: "";
     width: 80px;
@@ -5797,7 +5797,7 @@ h6 {
     bottom: 16px;
     margin-left: 15px;
     left: 100%
-}
+} */
 
 .orido_tm_about .right .text {
     width: 100%;
@@ -5977,17 +5977,32 @@ h6 {
 .orido_tm_informations .skillbox ul {
     margin: 0 0 0 -20px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     list-style-type: none;
+}
+
+
+@media (min-width:920px) {
+    .orido_tm_informations .skillbox ul {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
 }
 
 .orido_tm_informations .skillbox ul li {
     /* margin: 0 0 45px; */
     width: 33.3333%;
     float: left;
-    /* padding-left: 20px; */
+    padding-left: 20px;
 
+}
+
+@media (min-width:1040px) {
+    .orido_tm_informations .skillbox ul li{
+        padding-left: 0px;
+    }
+    
 }
 
 .orido_tm_informations .skillbox ul li .list_inner {
@@ -6176,15 +6191,15 @@ h6 {
     z-index: 5
 }
 
-.orido_tm_service {
+/* .orido_tm_service {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 120px 0;
     background-color: #fafafb
-}
-
+} */
+/* 
 .orido_tm_service .service_list {
     width: 100%;
     height: auto;
@@ -6216,8 +6231,8 @@ h6 {
     margin: 0;
     border-bottom: 1px solid var(--main-color);
     position: relative
-}
-
+} */
+/* 
 .orido_tm_service .service_list ul li:first-child {
     border-top: 1px solid var(--main-color)
 }
@@ -6234,9 +6249,9 @@ h6 {
 .orido_tm_service .service_list .left {
     width: 40%;
     display: flex
-}
+} */
 
-.orido_tm_service .service_list .number {
+/* .orido_tm_service .service_list .number {
     display: inline-block;
     color: #6244c5;
     font-size: 24px;
@@ -6301,7 +6316,7 @@ h6 {
 
 .orido_tm_service .service_list ul li.mleave .right .svg path {
     fill: var(--main-color)
-}
+} */
 
 .orido_tm_modalbox {
     position: fixed;
@@ -6425,14 +6440,14 @@ h6 {
     border: 3px solid #fff
 }
 
-.orido_tm_service .popup_service_image,
+/* .orido_tm_service .popup_service_image,
 .orido_tm_service .service_hidden_details {
     opacity: 0;
     visibility: hidden;
     display: none;
     position: absolute;
     z-index: -111
-}
+} */
 
 .orido_tm_modalbox .service_popup_informations {
     width: 100%;
@@ -8055,7 +8070,7 @@ h6 {
     .orido_tm_informations .skillbox {
         margin-top: 50px
     }
-    .orido_tm_service .service_list .list_inner {
+    /* .orido_tm_service .service_list .list_inner {
         flex-direction: column;
         align-items: baseline;
         justify-content: flex-start
@@ -8080,7 +8095,7 @@ h6 {
     }
     .orido_tm_service .service_list .number {
         font-size: 16px
-    }
+    } */
     .orido_tm_portfolio .next_button,
     .orido_tm_portfolio .prev_button {
         display: none

@@ -47,14 +47,15 @@
                                     children: (0, n.jsx)("p", {
                                         children: "Full-Stack Developer with 2+ years of experience delivering secure, scalable, and cloud-ready web applications. Adept at bridging frontend and backend development with a strong foundation in DevOps and modern architecture practices. Known for building reliable, user-focused solutions and contributing across the full product lifecycle in fast-paced Agile environments."
                                     })
-                                }), (0, n.jsxs)("div", {
+                                }), 
+                                (0, n.jsxs)("div", {
                                     className: "short",
                                     children: [(0, n.jsx)("div", {
                                         className: "orido_tm_boxed_button",
                                         children: (0, n.jsxs)("a", {
-                                            href: "img/cv/1.jpg",
+                                            href: "resume/VishwanathA_SoftwareDeveloper_Resume.pdf",
                                             download: !0,
-                                            children: ["Download CV", " ", (0, n.jsx)("img", {
+                                            children: ["My Resume", " ", (0, n.jsx)("img", {
                                                 className: "svg",
                                                 src: "img/svg/paper.svg",
                                                 alt: ""
@@ -66,7 +67,9 @@
                                     //     alt: ""
                                     // })
                                 ]
-                                })]
+                                })
+                            
+                            ]
                             })]
                         })
                     })
@@ -310,7 +313,7 @@
                                 }), (0, n.jsx)("div", {
                                     className: "orido_tm_boxed_button",
                                     children: (0, n.jsxs)("a", {
-                                        href: "#",
+                                        href: "mailto:vishwanatharuchunan@gmail.com",
                                         children: ["Say Hello ", (0, n.jsx)("img", {
                                             className: "svg",
                                             src: "img/svg/send.svg",
@@ -532,40 +535,23 @@
                 },
             ],
                 u = [{
-                    company: "Bauen Software Inc.",
-                    designation: "Product Designer",
-                    time: "2021 - Present"
+                    company: "GWC DATA.AI",
+                    designation: "Full-Stack Developer",
+                    time: "Jun 2023 - Present"
                 }, {
-                    company: "Bauen Software Inc.",
-                    designation: "UX Designer",
-                    time: "2020 - 2021"
-                }, {
-                    company: "Bauen Software Inc.",
-                    designation: "UI Designer",
-                    time: "2018 - 2020"
-                }, {
-                    company: "Bauen Software Inc.",
-                    designation: "Web Designer",
-                    time: "2016 - 2018"
+                    company: "Mobile Tutor",
+                    designation: "Full-Stack Developer Intern",
+                    time: "Jan 2023 - May 2023"
                 }
-            
             ],
                 h = [{
-                    institution: "Stanford Univercity",
-                    certificate: "Web Design Course",
-                    time: "2021 - Present"
+                    institution: "Bharatiar University",
+                    certificate: "Master of Computer Applications",
+                    time: "2021 - 2023"
                 }, {
-                    institution: "Art Univercity of New York",
-                    certificate: "Art Director Course",
-                    time: "2020 - 2021"
-                }, {
-                    institution: "Amazon College",
-                    certificate: "IOS Development",
-                    time: "2018 - 2020"
-                }, {
-                    institution: "Univercity of Texas",
-                    certificate: "UX Expert",
-                    time: "2017 - 2018"
+                    institution: "National College",
+                    certificate: "Bachelor of Computer Applications",
+                    time: "2018 - 2021"
                 }],
                 v = function() {
                     var e = (0, r.useState)(1),
@@ -601,16 +587,6 @@
                                                 }), (0, n.jsx)("p", {
                                                     children: "You’ll find me working with React, Node.js, TypeScript, Docker, Azure, and more—always focused on delivering clean architecture and seamless user experiences."
                                                 })]
-                                            }), (0, n.jsx)("div", {
-                                                className: "orido_tm_boxed_button",
-                                                children: (0, n.jsxs)("a", {
-                                                    href: "#",
-                                                    children: ["My Resume", " ", (0, n.jsx)("img", {
-                                                        className: "svg",
-                                                        src: "img/svg/paper.svg",
-                                                        alt: ""
-                                                    })]
-                                                })
                                             })]
                                         }), (0, n.jsxs)("div", {
                                             className: "right",
@@ -807,45 +783,7 @@
                 var s = e.dark;
                 return (0, n.jsx)("div", {
                     className: "orido_tm_section",
-                    children: (0, n.jsx)("div", {
-                        className: "orido_tm_testimonials",
-                        children: (0, n.jsxs)("div", {
-                            className: "container",
-                            children: [(0, n.jsx)("div", {
-                                className: "orido_tm_main_title",
-                                children: (0, n.jsx)("h3", {
-                                    children: (0, n.jsxs)("span", {
-                                        children: ["Valuable feedback", (0, n.jsx)("br", {}), "from my client"]
-                                    })
-                                })
-                            }), (0, n.jsxs)("div", {
-                                className: "testimonials_in",
-                                children: [(0, n.jsx)("img", {
-                                    src: "img/testimonials/".concat(s ? 2 : 1, ".jpg"),
-                                    alt: ""
-                                }), (0, n.jsxs)("div", {
-                                    className: "info",
-                                    children: [(0, n.jsx)("div", {
-                                        className: "text",
-                                        children: (0, n.jsx)("p", {
-                                            children: "\u201cAwesome website! Easy to use and edit, it has a lot of options to design whatever you need, it is professional and fun. I was very successful creating my profile using designer which gave me unbelievable reach & appreciation.\u201d"
-                                        })
-                                    }), (0, n.jsxs)("div", {
-                                        className: "details",
-                                        children: [(0, n.jsx)("h3", {
-                                            className: "name",
-                                            children: (0, n.jsx)("span", {
-                                                children: "Albert Walkers"
-                                            })
-                                        }), (0, n.jsx)("span", {
-                                            className: "job",
-                                            children: "Vivaco Group"
-                                        })]
-                                    })]
-                                })]
-                            })]
-                        })
-                    })
+                    children: [""]
                 })
             }
         },
@@ -885,7 +823,7 @@
                                         className: "orido_tm_boxed_button",
                                         children: (0, n.jsxs)("a", {
                                             className: "anchor",
-                                            href: "#contact",
+                                            href: "mailto:vishwanatharuchunan@gmail.com",
                                             children: ["Say Hello", " ", (0, n.jsx)("img", {
                                                 className: "svg",
                                                 src: "img/svg/send.svg",
@@ -896,7 +834,7 @@
                                         className: "orido_tm_simple_button",
                                         children: (0, n.jsxs)("a", {
                                             className: "line_effect anchor",
-                                            href: "#portfolio",
+                                            href: "#",
                                             children: ["My Works", " ", (0, n.jsx)("img", {
                                                 className: "svg",
                                                 src: "img/svg/top-arrow.svg",
@@ -1047,59 +985,10 @@
                                     className: "container",
                                     children: [(0, n.jsx)("div", {
                                         className: "orido_tm_main_title",
-                                        children: (0, n.jsx)("h3", {
-                                            children: (0, n.jsxs)("span", {
-                                                children: ["Services", (0, n.jsx)("br", {}), "I Provide"]
-                                            })
-                                        })
+                                        children: [""]
                                     }), (0, n.jsxs)("div", {
                                         className: "service_list",
-                                        children: [(0, n.jsx)("ul", {
-                                            children: o.map((function(e, r) {
-                                                return (0, n.jsx)("li", {
-                                                    className: s == r ? "current" : "",
-                                                    children: (0, n.jsxs)("div", {
-                                                        className: "list_inner",
-                                                        children: [(0, n.jsxs)("div", {
-                                                            className: "left",
-                                                            children: [(0, n.jsx)("span", {
-                                                                className: "number",
-                                                                children: "0".concat(r + 1)
-                                                            }), (0, n.jsx)("h3", {
-                                                                className: "title",
-                                                                children: e.name
-                                                            })]
-                                                        }), (0, n.jsxs)("div", {
-                                                            className: "right",
-                                                            children: [(0, n.jsx)("div", {
-                                                                className: "text",
-                                                                children: (0, n.jsxs)("p", {
-                                                                    children: [e.description[0].substring(0, 105), "..."]
-                                                                })
-                                                            }), (0, n.jsx)("div", {
-                                                                className: "arrow",
-                                                                children: (0, n.jsx)("img", {
-                                                                    className: "svg",
-                                                                    src: "img/svg/top-arrow.svg",
-                                                                    alt: ""
-                                                                })
-                                                            })]
-                                                        }), (0, n.jsx)("a", {
-                                                            className: "orido_tm_full_link c-pointer",
-                                                            onClick: function() {
-                                                                d(e), h(!0), i(r)
-                                                            }
-                                                        }), (0, n.jsx)("img", {
-                                                            className: "popup_service_image",
-                                                            src: "img/service/1.jpg",
-                                                            alt: ""
-                                                        })]
-                                                    })
-                                                }, r)
-                                            }))
-                                        }), (0, n.jsx)("span", {
-                                            className: "ccc"
-                                        })]
+                                        children: []
                                     })]
                                 })
                             })
