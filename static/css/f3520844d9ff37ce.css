@@ -7321,9 +7321,9 @@ h6 {
     background-color: hsla(0, 0%, 100%, .15)
 }
 
-.orido_tm_contact .orido_tm_follow ul li a:hover {
+/* .orido_tm_contact .orido_tm_follow ul li a:hover {
     background-color: #fff
-}
+} */
 
 .orido_tm_contact .orido_tm_follow ul li .svg path {
     fill: #fff
