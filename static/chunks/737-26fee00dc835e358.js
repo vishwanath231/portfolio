@@ -816,25 +816,27 @@
                                         className: "orido_tm_boxed_button",
                                         children: (0, n.jsxs)("a", {
                                             className: "anchor",
-                                            href: "mailto:vishwanatharuchunan@gmail.com",
+                                            href: "#contact",
                                             children: ["Say Hello", " ", (0, n.jsx)("img", {
                                                 className: "svg",
                                                 src: "img/svg/send.svg",
                                                 alt: ""
                                             })]
                                         })
-                                    }), (0, n.jsx)("div", {
-                                        className: "orido_tm_simple_button",
-                                        children: (0, n.jsxs)("a", {
-                                            className: "line_effect anchor",
-                                            href: "#",
-                                            children: ["My Works", " ", (0, n.jsx)("img", {
-                                                className: "svg",
-                                                src: "img/svg/top-arrow.svg",
-                                                alt: ""
-                                            })]
-                                        })
-                                    })]
+                                    }), 
+                                    // (0, n.jsx)("div", {
+                                    //     className: "orido_tm_simple_button",
+                                    //     children: (0, n.jsxs)("a", {
+                                    //         className: "line_effect anchor",
+                                    //         href: "#",
+                                    //         children: ["My ", " ", (0, n.jsx)("img", {
+                                    //             className: "svg",
+                                    //             src: "img/svg/top-arrow.svg",
+                                    //             alt: ""
+                                    //         })]
+                                    //     })
+                                    // })
+                                ]
                                 })]
                             })
                         }), (0, n.jsxs)("div", {
