@@ -53,7 +53,7 @@
                                     children: [(0, n.jsx)("div", {
                                         className: "orido_tm_boxed_button",
                                         children: (0, n.jsxs)("a", {
-                                            href: "resume/VishwanathA_SoftwareDeveloper_Resume.pdf",
+                                            href: "resume/VishwanathA_FullStackDeveloper_Resume.pdf",
                                             download: !0,
                                             children: ["My Resume", " ", (0, n.jsx)("img", {
                                                 className: "svg",
