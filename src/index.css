@@ -5463,8 +5463,9 @@ h6 {
     width: 24px;
     height: 24px;
     position: relative;
-    top: 6px;
-    margin-left: 6px;
+    top: 0;
+    vertical-align: middle;
+    margin-left: 0;
     transition: all .3s ease
 }
 
@@ -5826,7 +5827,10 @@ h6 {
 
 .orido_tm_about .orido_tm_boxed_button a {
     color: var(--main-color);
-    background-color: #fff
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px
 }
 
 .orido_tm_about .orido_tm_boxed_button a:hover {
@@ -5836,6 +5840,10 @@ h6 {
 
 .orido_tm_about .orido_tm_boxed_button a:hover .svg path {
     fill: #fff
+}
+
+.orido_tm_about .orido_tm_boxed_button a:hover .svg {
+    filter: brightness(0) invert(1)
 }
 
 .orido_tm_about .short img {
@@ -5891,13 +5899,13 @@ h6 {
 }
 
 .orido_tm_informations .right .filter .ccc {
-    top: -16px;
-    bottom: -20px;
+    top: 0;
+    bottom: 0;
     border: 1px solid var(--main-color);
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     border-radius: 16px;
-    transition: all .5s ease
+    transition: left .5s ease, width .5s ease
 }
 
 .orido_tm_informations .right .filter ul {
@@ -5906,8 +5914,10 @@ h6 {
 }
 
 .orido_tm_informations .right .filter ul li {
-    margin: 0 70px 0 0;
-    display: inline-block
+    margin: 0 16px 0 0;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 16px
 }
 
 .orido_tm_informations .right .filter ul li:last-child {
@@ -5920,7 +5930,8 @@ h6 {
     font-family: var(--font-family-extra);
     font-weight: 700;
     display: inline-block;
-    position: relative
+    position: relative;
+    z-index: 1
 }
 
 .orido_tm_informations .right .filter ul li a .svg {
@@ -7251,6 +7262,10 @@ h6 {
     width: auto
 }
 
+.orido_tm_contact .orido_tm_boxed_button a {
+    padding-right: 56px
+}
+
 .orido_tm_contact .text h3 {
     font-weight: 700;
     font-size: 56px;
@@ -7334,12 +7349,16 @@ h6 {
 }
 
 .orido_tm_contact .orido_tm_boxed_button a:hover {
-    background-color: #fff;
-    color: var(--main-color)
+    background-color: #4f32a8;
+    color: #fff
 }
 
 .orido_tm_contact .orido_tm_boxed_button a:hover .svg path {
-    fill: var(--main-color)
+    fill: #fff
+}
+
+.orido_tm_contact .orido_tm_boxed_button a:hover .svg {
+    filter: brightness(0) invert(1)
 }
 
 .orido_tm_contact .element {
