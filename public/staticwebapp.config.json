@@ -1,0 +1,11 @@
+{
+  "mimeTypes": {
+    ".js": "text/javascript",
+    ".mjs": "text/javascript",
+    ".css": "text/css",
+    ".svg": "image/svg+xml"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+}
