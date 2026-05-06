@@ -5198,7 +5198,6 @@ h6 {
     float: left;
     clear: both;
     background-color: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding: 10px 20px
 }
 
@@ -5268,19 +5267,68 @@ h6 {
     padding: 7px 40px !important
 }
 
-.orido_tm_mobile_menu .hamburger-inner,
-.orido_tm_mobile_menu .hamburger-inner:after,
-.orido_tm_mobile_menu .hamburger-inner:before {
-    width: 30px;
-    height: 2px
+.orido_tm_mobile_menu .hamburger {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .orido_tm_mobile_menu .hamburger-box {
-    width: 30px
+    width: 30px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    position: relative
 }
 
-.orido_tm_mobile_menu .hamburger {
-    padding: 0
+.orido_tm_mobile_menu .hamburger-inner {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #12141d;
+    position: relative;
+    transition: transform 0.3s ease, opacity 0.3s ease
+}
+
+.orido_tm_mobile_menu .hamburger-inner:before,
+.orido_tm_mobile_menu .hamburger-inner:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #12141d;
+    position: absolute;
+    transition: transform 0.3s ease
+}
+
+.orido_tm_mobile_menu .hamburger-inner:before {
+    top: -9px
+}
+
+.orido_tm_mobile_menu .hamburger-inner:after {
+    bottom: -9px
+}
+
+.orido_tm_mobile_menu .hamburger.is-active .hamburger-inner {
+    background-color: transparent
+}
+
+.orido_tm_mobile_menu .hamburger.is-active .hamburger-inner:before {
+    transform: translateY(9px) rotate(45deg)
+}
+
+.orido_tm_mobile_menu .hamburger.is-active .hamburger-inner:after {
+    transform: translateY(-9px) rotate(-45deg)
+}
+
+body.dark .orido_tm_mobile_menu .hamburger-inner,
+body.dark .orido_tm_mobile_menu .hamburger-inner:before,
+body.dark .orido_tm_mobile_menu .hamburger-inner:after {
+    background-color: #fff
 }
 
 .orido_tm_header {
@@ -5916,7 +5964,7 @@ h6 {
 .orido_tm_informations .right .filter ul li {
     margin: 0 16px 0 0;
     display: inline-block;
-    padding: 8px 20px;
+    padding: 20px 30px;
     border-radius: 16px
 }
 
@@ -5937,8 +5985,7 @@ h6 {
 .orido_tm_informations .right .filter ul li a .svg {
     width: 24px;
     height: 24px;
-    position: relative;
-    top: 6px;
+    vertical-align: middle;
     margin-left: 6px
 }
 

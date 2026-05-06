@@ -76,7 +76,7 @@ export default function Informations() {
   }, [activeTab])
 
   return (
-    <div className="orido_tm_section">
+    <div className="orido_tm_section" id="informations">
       <div className="orido_tm_informations">
         <div className="container">
           <div className="informations_inner">

@@ -11,7 +11,9 @@
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\\\\static\" -Recurse -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\\\\\", \"\"\\) })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\\\\.github\" -Recurse -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\\\\\", \"\"\\) })",
       "PowerShell(Copy-Item \"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\\\\static\\\\css\\\\f3520844d9ff37ce.css\" \"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\\\\src\\\\index.css\")",
-      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\" -Force | Where-Object { $_.Name -notmatch '^\\(node_modules|dist|\\\\.git\\)$' } | ForEach-Object { $_.Name })"
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\DELL\\\\Documents\\\\portfolio\" -Force | Where-Object { $_.Name -notmatch '^\\(node_modules|dist|\\\\.git\\)$' } | ForEach-Object { $_.Name })",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
